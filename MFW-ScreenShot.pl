@@ -3,7 +3,7 @@
 ################################################################################
 #                                                                              #
 #  MFW ScreenShot Tool                                                         #
-#  Version 1.1                                                                 #
+#  Version 1.2                                                                 #
 #                                                                              #
 #  If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...  #
 #                                                                              #
@@ -25,10 +25,13 @@
 #                                                                              #
 #  Version Control:                                                            #
 #                                                                              #
+#    * Fri May 27 2009 Pablo Meniño <pablo.menino@gmail.com> 1.2               #
+#      - HTML Help.                                                            #
+#                                                                              #
 #    * Tue May 26 2009 Pablo Meniño <pablo.menino@gmail.com> 1.1               #
 #      - Script converted from BASH to Perl.                                   #
 #      - Added full screen capture option.                                     #
-#      - RPM Release.                                                          #
+#      - First RPM Release.                                                    #
 #      - Man page.                                                             #
 #                                                                              #
 #    * Mon May 4 2009 Pablo Meniño <pablo.menino@gmail.com> 1.0                #
@@ -50,7 +53,7 @@ use Switch;
 # Variables -----------------------------------------------------------
 
 # Version Control
-my $version = "1.1";
+my $version = "1.2";
 
 # Filename
 my $screenshot = "screenshot-";

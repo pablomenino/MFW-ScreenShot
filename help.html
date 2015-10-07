@@ -1,0 +1,106 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Language" content="en-us">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>MFW-ScreenShot :: Help</title>
+</head>
+
+<body>
+
+<h3>MFW-ScreenShot :: Help</h3>
+
+<p>
+MFW ScreenShot Tool - A tool for take screenshots<br>
+Version 1.2<br>
+<br>
+If you value your sanity ... beware ... <a href="http://mfw.com.ar">http://mfw.com.ar</a> ... is alive ...<br>
+<br>
+Copyright &copy; 2009 - MFW TechNet - Pablo Meni&ntilde;o &lt;pablo.menino@gmail.com&gt;<br>
+<br>
+<b>Menu:</b>
+<ul>
+  <li><a href="#Use">Use</a></li>
+  <li><a href="#Version">Version</a></li>
+  <li><a href="#Bugs">Bugs</a></li>
+  <li><a href="#Setup">Setup a keyboard shortcut</a></li>
+  <li><a href="#Authors">Authors</a></li>
+</ul>
+
+</p>
+
+<h4><a name="Use">Use:</a></h4>
+
+<pre>
+MFW-ScreenShot.pl [option]
+--print_help          - Display a brief list of command line options
+--print_version       - Print version info
+--full_screenshot     - Full screen screenshot
+--area_screenshot     - Screen area screenshot
+</pre>
+
+<h4><a name="Version">Version:</a></h4>
+
+<pre>
+Fri May 27 2009 Pablo Meni&ntilde;o &lt;pablo.menino@gmail.com&gt; 1.2
+  - HTML Help (Shortcut setup).
+
+Tue May 26 2009 Pablo Meni&ntilde;o &lt;pablo.menino@gmail.com&gt; 1.1
+  - Script converted from BASH to Perl.
+  - Added full screen capture option.
+  - First RPM Release.
+  - Man page.
+
+Mon May 4 2009 Pablo Meni&ntilde;o &lt;pablo.menino@gmail.com&gt; 1.0
+  - First version.
+</pre>
+
+<h4><a name="Bugs">Bugs:</a></h4>
+
+<pre>
+For details of known problems, or to report a bug, go to:
+  http://mfw.com.ar/
+</pre>
+
+<h4><a name="Setup">Setup a keyboard shortcut:</a></h4>
+
+<pre>
+To setup a keyboard shortcut, open Keyboard Shortcuts from system menu
+
+Go To:
+  Gnome Menu -> System -> Preferences -> Keyboard Shortcuts
+
+Or execute on a shell terminal:
+  <console>[user@linux ~]$ gnome-keybinding-properties</console>
+
+<img style="border: none;" src="images/img-1.jpg" alt="img-1">
+
+Create something like this on Custom Commands:
+
+<img style="border: none;" src="images/img-2.jpg" alt="img-2">
+
+Name and Command:
+
+<img style="border: none;" src="images/img-3.jpg" alt="img-3">
+
+Screen Area
+  Name: MFW-ScreenShot (Area)
+  Command: /opt/mfw/MFW-ScreenShot/MFW-ScreenShot.pl --area_screenshot
+
+Full ScreenShot
+  Name: MFW-ScreenShot (Full)
+  Command: /opt/mfw/MFW-ScreenShot/MFW-ScreenShot.pl --full_screenshot
+
+And select the key on the shotcut section.
+</pre>
+
+<h4><a name="Authors">Authors:</a></h4>
+
+<pre>
+Copyright &copy; 2009 - MFW TechNet - Pablo Meni&ntilde;o <pablo.menino@gmail.com>
+http://mfw.com.ar/
+</pre>
+
+</body>
+</html>
+
