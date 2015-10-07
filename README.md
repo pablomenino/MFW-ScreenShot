@@ -1,5 +1,5 @@
 MFW ScreenShot Tool - A tool for take screenshots
-Version 1.0
+Version 1.1
 
 If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...
 

@@ -1,4 +1,11 @@
 Version Control:
-  * 1.0:
+
+  * 1.1 (Tue May 26 2009 Pablo Meniño <pablo.menino@gmail.com>):
+      * Script converted from BASH to Perl.
+      + Added full screen capture option.
+      + RPM Release.
+      + Man page.
+
+  * 1.0 (Mon May 4 2009 Pablo Meniño <pablo.menino@gmail.com>):
       + First version.
 
