@@ -3,7 +3,7 @@
 ################################################################################
 #                                                                              #
 #  MFW ScreenShot Tool                                                         #
-#  Version 1.2                                                                 #
+#  Version 1.2.1                                                               #
 #                                                                              #
 #  If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...  #
 #                                                                              #
@@ -24,6 +24,9 @@
 #  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #
 #                                                                              #
 #  Version Control:                                                            #
+#                                                                              #
+#    * Fri Feb 26 2010 Pablo Meniño <pablo.menino@gmail.com> 1.2.1             #
+#      - Fix for destination directory errors.                                 #
 #                                                                              #
 #    * Fri May 27 2009 Pablo Meniño <pablo.menino@gmail.com> 1.2               #
 #      - HTML Help.                                                            #
@@ -53,7 +56,7 @@ use Switch;
 # Variables -----------------------------------------------------------
 
 # Version Control
-my $version = "1.2";
+my $version = "1.2.1";
 
 # Filename
 my $screenshot = "screenshot-";
@@ -129,7 +132,7 @@ sub make_screenshot_dir()
 	if ( &check_screenshot_dir("$home/$dirto") != 0 )
 	{
 		# Create directory ...
-		`mkdir -p $home/$dirto`
+		`mkdir -p "$home/$dirto"`
 	}
 }
 
@@ -141,8 +144,8 @@ sub full_screenshot()
 	print "Check file dir ...\n";
 	make_screenshot_dir();
 	print "Take screenshot ...\n";
-	`import -window root $home/$dirto/$screenshot$nano$extension_png`;
-	`convert $home/$dirto/$screenshot$nano$extension_png $home/$dirto/$screenshot$nano$extension_jpg`;
+	`import -window root "$home/$dirto/$screenshot$nano$extension_png"`;
+	`convert "$home/$dirto/$screenshot$nano$extension_png" "$home/$dirto/$screenshot$nano$extension_jpg"`;
 	print " ... end.\n";
 }
 
@@ -154,8 +157,8 @@ sub area_screenshot()
 	print "Check file dir ...\n";
 	make_screenshot_dir();
 	print "Take screenshot ... select windows area ...\n";
-	`import $home/$dirto/$screenshot$nano$extension_png`;
-	`convert $home/$dirto/$screenshot$nano$extension_png $home/$dirto/$screenshot$nano$extension_jpg`;
+	`import "$home/$dirto/$screenshot$nano$extension_png"`;
+	`convert "$home/$dirto/$screenshot$nano$extension_png" "$home/$dirto/$screenshot$nano$extension_jpg"`;
 	print " ... end.\n";
 }
 

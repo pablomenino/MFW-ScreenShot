@@ -1,5 +1,8 @@
 Version Control:
 
+  * 1.2.1 (Fri Feb 26 2010 Pablo Meniño <pablo.menino@gmail.com>):
+      + Fix for destination directory errors.
+
   * 1.2 (Fri May 27 2009 Pablo Meniño <pablo.menino@gmail.com>):
       + HTML Help.
 
