@@ -1,16 +1,52 @@
-MFW ScreenShot Tool - A tool for take screenshots
-Version 1.2.1
+# MFW ScreenShot Tool - A tool for take screenshots
 
-If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...
+**Version 1.2.1**
 
-Copyright © 2010 - MFW TechNet - Pablo Meniño <pablo.menino@gmail.com>
+This script works in UNIX-like systems, tested on Fedora 12.
 
-Supported Operating Systems:
+Original intention for use on Gnome 2
 
-    * This script works in UNIX-like systems, tested on Fedora 12.
+## Table of contents
 
-Prerequisites:
+* [How to Use](#how-to-use)
 
-    * To use this script you need to have ImageMagick installed in your system.
-      Needed to take the screenshots.
-      ImageMagick - OpenMP http://www.imagemagick.org
+## <a name="how-to-use">How to Use
+
+#### Requirements
+
+To use this script you need to have Perl and ImageMagick installed in your system.
+
+* ImageMagick - OpenMP http://www.imagemagick.org
+* Perl
+
+#### How to use
+
+Screen Area
+
+```bash
+/PATH-TO-SCRIPT/MFW-ScreenShot.pl --area_screenshot
+```
+
+Full ScreenShot
+
+```bash
+/PATH-TO-SCRIPT/MFW-ScreenShot.pl --full_screenshot
+```
+
+#### Configure destination directory
+
+Change the directory in the script:
+
+```bash
+vi /PATH-TO-SCRIPT/MFW-ScreenShot.pl
+```
+
+Modify the line:
+
+my $dirto = "Pictures/ScreenShots";
+
+The final directory is on the Home user directory:
+
+```bash
+$ENV{HOME} + $dirto
+```

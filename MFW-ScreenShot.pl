@@ -1,46 +1,15 @@
 #!/usr/bin/perl
 
-################################################################################
-#                                                                              #
-#  MFW ScreenShot Tool                                                         #
-#  Version 1.2.1                                                               #
-#                                                                              #
-#  If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...  #
-#                                                                              #
-#  Copyright © 2009 - MFW TechNet - Pablo Meniño <pablo.menino@gmail.com>      #
-#                                                                              #
-#  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #
-#                                                                              #
-#  This program is free software; you can redistribute it and/or modify        #
-#  it under the terms of the GNU General Public License as published by        #
-#  the Free Software Foundation; either version 2 of the License, or           #
-#  (at your option) any later version.                                         #
-#                                                                              #
-#  This program is distributed in the hope that it will be useful,             #
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of              #
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
-#  GNU General Public License for more details.                                #
-#                                                                              #
-#  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #
-#                                                                              #
-#  Version Control:                                                            #
-#                                                                              #
-#    * Fri Feb 26 2010 Pablo Meniño <pablo.menino@gmail.com> 1.2.1             #
-#      - Fix for destination directory errors.                                 #
-#                                                                              #
-#    * Fri May 27 2009 Pablo Meniño <pablo.menino@gmail.com> 1.2               #
-#      - HTML Help.                                                            #
-#                                                                              #
-#    * Tue May 26 2009 Pablo Meniño <pablo.menino@gmail.com> 1.1               #
-#      - Script converted from BASH to Perl.                                   #
-#      - Added full screen capture option.                                     #
-#      - First RPM Release.                                                    #
-#      - Man page.                                                             #
-#                                                                              #
-#    * Mon May 4 2009 Pablo Meniño <pablo.menino@gmail.com> 1.0                #
-#      - First version.                                                        #
-#                                                                              #
-################################################################################
+#----------------------------------------------------------------------------------------
+# MFW ScreenShot Tool
+# Version: 1.2.1
+# 
+# WebSite:
+# https://github.com/pablomenino/MFW-ScreenShot
+# http://pablomenino.github.io/MFW-ScreenShot/
+# 
+# Copyright © 2010 - Pablo Meniño <pablo.menino@gmail.com>
+#----------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------
 # Use declaration -----------------------------------------------------

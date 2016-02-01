@@ -1,17 +1,16 @@
-Version Control:
+Change Log:
 
-  * 1.2.1 (Fri Feb 26 2010 Pablo Meniño <pablo.menino@gmail.com>):
+  * 1.2.1 (26/02/2010)
       + Fix for destination directory errors.
 
-  * 1.2 (Fri May 27 2009 Pablo Meniño <pablo.menino@gmail.com>):
+  * 1.2 (27/05/2009)
       + HTML Help.
 
-  * 1.1 (Tue May 26 2009 Pablo Meniño <pablo.menino@gmail.com>):
+  * 1.1 (26/05/2009)
       * Script converted from BASH to Perl.
       + Added full screen capture option.
       + First RPM Release.
       + Man page.
 
-  * 1.0 (Mon May 4 2009 Pablo Meniño <pablo.menino@gmail.com>):
+  * 1.0 (04/05/2009)
       + First version.
-
