@@ -2,13 +2,13 @@
 
 #----------------------------------------------------------------------------------------
 # MFW ScreenShot Tool
-# Version: 1.2.1
+# Version: 1.2.2
 # 
 # WebSite:
 # https://github.com/pablomenino/MFW-ScreenShot
 # http://pablomenino.github.io/MFW-ScreenShot/
 # 
-# Copyright © 2010 - Pablo Meniño <pablo.menino@gmail.com>
+# Copyright © 2019 - Pablo Meniño <pablo.menino@gmail.com>
 #----------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------
@@ -25,7 +25,7 @@ use Switch;
 # Variables -----------------------------------------------------------
 
 # Version Control
-my $version = "1.2.1";
+my $version = "1.2.2";
 
 # Filename
 my $screenshot = "screenshot-";
@@ -52,7 +52,7 @@ my $extension_jpg=".jpg";
 sub print_help()
 {
 	print "MFW ScreenShot Tool - Version $version\n";
-	print "Copyright © 2009 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
+	print "Copyright © 2019 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
 	print "\n";
 	print "Usage: $0 [options]\n";
 	print "\n";
@@ -75,7 +75,7 @@ sub print_help()
 sub print_version()
 {
 	print "MFW ScreenShot Tool - Version $version\n";
-	print "Copyright © 2009 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
+	print "Copyright © 2019 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
 	print "\n";
 	print "If you value your sanity ... beware ... http://mfw.com.ar ... is alive ...\n";
 }
@@ -108,7 +108,7 @@ sub make_screenshot_dir()
 sub full_screenshot()
 {
 	print "MFW ScreenShot Tool - Version $version\n";
-	print "Copyright © 2009 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
+	print "Copyright © 2019 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
 	print "\n";
 	print "Check file dir ...\n";
 	make_screenshot_dir();
@@ -121,7 +121,7 @@ sub full_screenshot()
 sub area_screenshot()
 {
 	print "MFW ScreenShot Tool - Version $version\n";
-	print "Copyright © 2009 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
+	print "Copyright © 2019 - MFW TechNet - Pablo Meniño <pablo.menino\@gmail.com>\n";
 	print "\n";
 	print "Check file dir ...\n";
 	make_screenshot_dir();

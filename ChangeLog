@@ -1,5 +1,8 @@
 Change Log:
 
+  * 1.2.2 (2019/02/10)
+      + Clean up
+
   * 1.2.1 (26/02/2010)
       + Fix for destination directory errors.
 

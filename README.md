@@ -1,9 +1,10 @@
-# MFW ScreenShot Tool - A tool for take screenshots
+<h3 align="center">MFW-ScreenShot</h3>
+<p align="center">A tool for take screenshots</p>
 
-![GitHub release](https://img.shields.io/github/release/pablomenino/MFW-ScreenShot.svg) 
-![GitHub](https://img.shields.io/github/license/pablomenino/MFW-ScreenShot.svg)
-
-**Version 1.2.1**
+<p align="center">
+<a href="https://github.com/pablomenino/MFW-ScreenShot/releases"><img src="https://img.shields.io/github/release/pablomenino/MFW-ScreenShot.svg"></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/pablomenino/MFW-ScreenShot.svg"></a>
+</p>
 
 This script works in UNIX-like systems, tested on Fedora 12.
 
